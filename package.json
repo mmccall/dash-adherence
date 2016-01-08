@@ -1,0 +1,23 @@
+{
+    "name": "dash-scriviner",
+    "version": "0.0.1",
+    "description": "A medication adherence logger using Amazon Dash.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mmccall/dash-scriviner.git"
+    },
+    "keywords": [
+        "Dash",
+        "Scriviner"
+    ],
+    "author": "Matthew McCall",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/mmccall/dash-scriviner/issues"
+    },
+    "dependencies": {
+        "node-dash-button": "0.2.x"
+        },
+    "devDependencies": {}
+}
