@@ -1,3 +1,10 @@
 {
-	"dash_list": []
+    "dash_list": [{
+        "mac_address": "",
+        "medication": ""
+    }],
+    "database": {
+        "connection_string": "postgres://user:pass@localhost/medication_log"
+    },
+    "dash_window": 5
 }
