@@ -2,7 +2,7 @@ var dash_button = require('node-dash-button');
 var dash_config = require('./config.json');
 var pg = require('pg');
 var moment = require('moment');
-var dash = dash_button(dash_config.dash_list);
+var dash = dash_button(dash_config.dash_list[0].mac_address);
 
 
 //Comparison function filters out entries within
